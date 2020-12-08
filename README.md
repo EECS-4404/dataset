@@ -8,7 +8,8 @@ The dataset selected is the $name.
 ## Structure
 ```
 dataset
-│   README.md
+│   └──README.md
+│   └──split_dataset.m
 │
 └───training
 │   └──dataset_training.txt
