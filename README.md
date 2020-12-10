@@ -9,6 +9,7 @@ The dataset selected is the [Electrical Grid Stability Simulated Data](http://ar
 - 10,000 data points (3,620 stable and 6,380 unstable)
 - 12 real inputs
 - Shuffled
+- 20% for testing and 80% for training
 
 
 ### Important notes
