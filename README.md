@@ -13,8 +13,8 @@ The dataset selected is the [Electrical Grid Stability Simulated Data](http://ar
 
 ### Important notes
 - Since this dataset is imbalanced, we will use the F1-score instead of the binary loss.
-- The last column of the dataset, i.e., the class, was replaced for 1 = stable | -1 = unstable
-- The last column of the inputs, i.e., i = 13, was removed since it is equal to the class itself and has no use in this analysis. 
+- The last column of the dataset, i.e., the class label, was replaced for 1 = stable | -1 = unstable
+- The last column of the inputs, i.e., index 13, was removed since it is equal to the class itself and has no use in this analysis. 
 
 
 ## Structure
