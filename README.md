@@ -1,7 +1,7 @@
 # Dataset
 The dataset selected is the [Electrical Grid Stability Simulated Data](http://archive.ics.uci.edu/ml/datasets/Electrical+Grid+Stability+Simulated+Data+#). 
 <div>
-<img src="/charts/bar_class" width="300px"</img> 
+<img src="/charts/bar_class.png" width="300px"</img> 
 </div>
 
 ## Features after preprocessing
