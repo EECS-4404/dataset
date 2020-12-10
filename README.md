@@ -6,13 +6,13 @@ The dataset selected is the [Electrical Grid Stability Simulated Data](http://ar
 
 ## Features after preprocessing
 - Binary classification (last column): 1 = stable | -1 = unstable
-- 7,240 data points (3,620 for each class)
+- 10,000 data points (3,620 stable and 6,380 unstable)
 - 12 real inputs
 - Shuffled
 
 
 ### Important notes
-- Since this dataset was imbalanced, we subsampled the class with fewer data points so each class has the same number of data points.
+- Since this dataset is imbalanced, we will use the F1-score instead of the binary loss.
 - The last column of the dataset, i.e., the class, was replaced for 1 = stable | -1 = unstable
 - The last column of the inputs, i.e., i = 13, was removed since it is equal to the class itself and has no use in this analysis. 
 
