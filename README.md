@@ -20,7 +20,8 @@ The dataset selected is the [Electrical Grid Stability Simulated Data](http://ar
 ## Structure
 ```
 dataset
-│   README.md
+│   └──README.md
+│   └──split_dataset.m
 │
 └───training
 │   └──dataset_training.txt
